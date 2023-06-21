@@ -1,10 +1,11 @@
 <template>
-    <section class="bg-[#181824] h-[1000px]">
+    <section class="bg-[#181824] h-[980px]">
         <div class="container mx-auto">
             <div>
-                <h1 class="text-white text-[50px] text-center">Education</h1>
-                <div class="grid grid-cols-3 gap-[100px] mt-[100px]">
-                    <div class="work relative rounded-[10px] overflow-hidden bg-[#3d3473] flex items-center justify-center">
+                <div class="hl"></div>
+                <h1 class="text-white text-[50px] text-center mt-[100px]">Education</h1>
+                <div class="grid grid-cols-3 gap-[100px] mt-[80px]">
+                    <div class="work relative rounded-[10px] overflow-hidden flex items-center justify-center h-[500px] ">
                         <img src="../public/images/tatu.png" class="w-[360px] h-[360px]" alt="">
                         <div class="text-white layer absolute top-0 w-full h-0 rounded-[10px] items-center justify-center flex flex-col gap-[10px]">
                             <p class="text-[18px]">September 2021 - to Now</p>
@@ -14,7 +15,7 @@
                         </div>
                     </div>
                     <div class="work relative rounded-[10px] overflow-hidden">
-                        <img src="../public/images/najot-2.png" class="w-full " alt="">
+                        <img src="../public/icons/najot.svg" class="w-full h-full" alt="">
                         <div class="text-white layer absolute top-0 w-full h-0 rounded-[10px] items-center justify-center flex flex-col gap-[10px]">
                             <p class="text-[18px]">June 2022 - July 2023</p>
                             <h1 class="text-center text-[28px]">"Najot Ta'lim" Learning center</h1>
@@ -23,7 +24,9 @@
                         </div>
                     </div>
                     <div class="work relative rounded-[10px] overflow-hidden">
-                        <img src="../public/images/oxford.jpg" class="w-full" alt="">
+                        <div class="w-full h-full flex justify-center items-center">
+                            <img src="../public/images/oxford-3.png" class="w-[34   5px] h-[400px]" alt="">
+                        </div>
                         <div class="text-white layer absolute top-0 w-full h-0 rounded-[10px] items-center justify-center flex flex-col gap-[10px]">
                             <p class="text-[18px]">the near Future</p>
                             <h1 class="text-center text-[28px]">University of Oxford</h1>
@@ -32,7 +35,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="hl mt-[150px]"></div>
+                <div class="hl mt-[110px]"></div>
             </div>  
         </div>
     </section>

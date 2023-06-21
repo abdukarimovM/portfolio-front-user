@@ -5,6 +5,7 @@
         <About/>
         <Services/>
         <Education/>
+        <Projects/>
     </div>
 </template>
 

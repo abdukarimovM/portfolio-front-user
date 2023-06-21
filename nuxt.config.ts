@@ -14,7 +14,7 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss"],
   app: {
 		head: {
-			title: "FakeStore",
+			title: "Portfolio",
 			link: [
 				{
 					rel: "preconnect",
