@@ -4,6 +4,7 @@ export default defineNuxtConfig({
 	// // SCSS file in the project
 	// '@/public/css/animation.css'
 	// ],
+
   devtools: { enabled: true },
   postcss: {
     plugins: {
@@ -11,7 +12,7 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ["@nuxtjs/tailwindcss"],
+  modules: ["@nuxtjs/tailwindcss", 'nuxt-swiper'],
   app: {
 		head: {
 			title: "Portfolio",
@@ -28,7 +29,11 @@ export default defineNuxtConfig({
 					rel: "stylesheet",
 					href: "https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css",
 				},
+				{
+					href:"https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+				},
 			]
 		},
 	},
+
 })
