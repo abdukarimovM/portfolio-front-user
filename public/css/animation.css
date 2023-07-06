@@ -347,7 +347,7 @@
   .star::after {
     transform: rotate(-45deg);
   }
-  
+
   @keyframes fall {
     to {
       transform: translate3d(-30em, 0, 0);

@@ -13,17 +13,18 @@
                         <i class='bx bxl-github'></i>
                     </div>
                 </div>
-                <div class="w-full gap-[20px] flex flex-col w-[716px]">
+                <div class="w-full gap-[20px] flex flex-col w-[716px] text-white">
                     <div class="gap-[16px] flex h-[50px]">
                         <input class="w-[350px] input bg-[#181824]" type="text" placeholder="Name:">
                         <input class="w-[350px] input bg-[#181824]" type="email" placeholder="Email:">
                     </div>
                     <input class="bg-[#181824] input h-[50px] w-[716px]" type="text" placeholder="Title:">
-                    <input class="bg-[#181824] input h-[100px] w-[716px]" type="text" placeholder="Message:">
-                    <button class="bg-[#7562E0] w-[180px] h-[50px] rounded-[8px] text-white">Send</button>
+                    <textarea class="bg-[#181824] input h-[100px] w-[716px] pt-2" type="text" placeholder="Message:"></textarea>
+                    <button class="live_btn bg-[#7562E0] w-[180px] h-[50px] rounded-[8px] text-white">Send</button>
                 </div>
             </div>
         </div>
+
     </section>
 </template>
 
@@ -36,6 +37,12 @@
 .input{
     border-radius: 6px;
     padding-left: 6px;
-    border: 1px solid white;
+    border: 2px solid #7562E0;
 }
+.live_btn:hover{
+    background-color: #181824;
+    border: 2px solid #7562E0;
+    transition-duration: 300ms;
+}
+
 </style>
