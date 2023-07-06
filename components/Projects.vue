@@ -1,5 +1,5 @@
 <template>
-    <section  class="bg-[#181824] h-[3150px]">
+    <section  class="bg-[#181824] h-[1100px]">
         <div class="container mx-auto">
             <div>
                 <h1 class="text-white text-[60px] text-center">Projects</h1>
@@ -44,40 +44,20 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper">
-                    <!-- Additional required wrapper -->
-                    <div class="swiper-wrapper">
-                    <!-- Slide 1 -->
-                    <div class="swiper-slide">  
-                        <div class="swiper-image">
-                            <div class="image"></div>
-                        </div>
-                    </div>
-                    <!-- Slide 2 -->
-                    <div class="swiper-slide">
-                        <div class="swiper-image">
-                            <div class="image"></div>
-                        </div>
-                    </div>
-                    <!-- Slide 3 -->
-                    <div class="swiper-slide">
-                        <div class="swiper-image">
-                            <div class="image"></div>
-                        </div>
-                    </div>
-                    </div>
-                    
-                    <!-- If we need navigation buttons -->
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
+                <div class="mt-[70px] flex gap-3 justify-center">
+                    <span class="pagination_1 shadow-lg shadow-[#7562E0]"></span>
+                    <span class="pagination"></span>
+                    <span class="pagination"></span>
+                    <span class="pagination"></span>
                 </div>
+                <div class="hl mt-[120px]"></div>
             </div>
         </div>
     </section>
 </template>
 
 <script>
-import "../public/js/swiper.js"
+
 </script>
 
 <style lang="css" scoped>
@@ -87,5 +67,20 @@ import "../public/js/swiper.js"
     border: 2px solid #7562E0;
     transition-duration: 300ms;
 }
-
+.pagination{
+    border: 3px solid #7562E0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.pagination_1{
+    background-color: #7562E0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.hl {
+  border-bottom: 6px solid #7562E0;
+  width:auto;
+}
 </style>

@@ -6,6 +6,7 @@
         <Services/>
         <Education/>
         <Projects/>
+        <Contact/>
     </div>
 </template>
 
