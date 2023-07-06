@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-[#181824] h-[600px]">
+    <section class="bg-[#181824] h-[550px]">
         <div class="container mx-auto">
             <div class="flex justify-between p-[50px]">
                 <div>

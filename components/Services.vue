@@ -101,7 +101,7 @@ html {
       transform: translateY(0px);
     }
     to {
-      transform: translateY(-8000px);
+      transform: translateY(-2000px);
     }
   }
   

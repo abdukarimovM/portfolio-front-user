@@ -14,8 +14,9 @@
                     </div>
                 </div>
             </nav>
-            <div class="hl mt-[160px]"></div>
         </div>
+        <div class="hl"></div>
+
     </header>
 </template>
 
@@ -25,7 +26,7 @@
 
 <style lang="css" scoped>
 .hl {
-  border-bottom: 6px solid #7562E0;
+  border-bottom: 2px solid #7562E0;
   width:auto;
 }
 
