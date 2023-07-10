@@ -14,7 +14,7 @@
                 <div class="vl mt-[120px]"></div>
                 <div class="mt-[100px]">
                     <div class="shadow-2xl shadow-[#7562E0] bg-[#7562E0] w-[520px] h-[520px] flex justify-center items-end rounded-full overflow-hidden">
-                        <img class="w-[484px] h-[484px] " src="../public/images/man.png" alt="">   
+                        <img class="mb-[-300px]" src="../public/images/img_new.png" alt="">   
                     </div>
                 </div>
             </div>

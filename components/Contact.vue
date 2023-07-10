@@ -1,19 +1,19 @@
 <template>
     <section class="bg-[#181824] h-[550px]">
         <div class="container mx-auto">
-            <div class="flex justify-between p-[50px]">
+            <div class="flex p-[50px] justify-between">
                 <div>
                     <h1 class="text-[#7562E0] font-medium text-[40px]">Connect with me:</h1>
                     <p class="text-white mt-[30px] text-[20px] flex gap-2"><i class='bx bxl-gmail text-[30px]'></i>abdukarimovmuslimbek2004@gmail.com</p>
-                    <div class="text-[#7562E0] mt-[30px] text-[30px] flex gap-2">
-                        <i class='bx bxl-linkedin' ></i>
-                        <i class='bx bxl-instagram-alt' ></i>
-                        <i class='bx bxl-telegram' ></i>
-                        <i class='bx bxl-twitter'></i>
-                        <i class='bx bxl-github'></i>
+                    <div class="text-[#7562E0] mt-[30px] text-[35px] flex gap-4">
+                        <i class='bx bxl-linkedin hover:border-[#7562E0] duration-500 transition delay-100 ease-in-out hover:-translate-y-1 hover:scale-105 hover:text-white' ></i>
+                        <i class='bx bxl-instagram-alt hover:border-[#7562E0] duration-500 transition delay-100 ease-in-out hover:-translate-y-1 hover:scale-105 hover:text-white' ></i>
+                        <i class='bx bxl-telegram hover:border-[#7562E0] duration-500 transition delay-100 ease-in-out hover:-translate-y-1 hover:scale-105 hover:text-white' ></i>
+                        <i class='bx bxl-twitter hover:border-[#7562E0] duration-500 transition delay-100 ease-in-out hover:-translate-y-1 hover:scale-105 hover:text-white'></i>
+                        <i class='bx bxl-github hover:border-[#7562E0] duration-500 transition delay-100 ease-in-out hover:-translate-y-1 hover:scale-105 hover:text-white'></i>
                     </div>
                 </div>
-                <div class="w-full gap-[20px] flex flex-col w-[716px] text-white">
+                <div class="gap-[20px] flex flex-col text-white">
                     <div class="gap-[16px] flex h-[50px]">
                         <input class="w-[350px] input bg-[#181824]" type="text" placeholder="Name:">
                         <input class="w-[350px] input bg-[#181824]" type="email" placeholder="Email:">
