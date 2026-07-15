@@ -1,3 +1,8 @@
+.hl {
+  border-bottom: 6px solid #7562E0;
+  width: auto;
+}
+
 .stars { 
     margin-top: 500px;
     /* top: 0; */

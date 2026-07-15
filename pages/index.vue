@@ -1,5 +1,9 @@
 <template>
     <div>
+        <CustomCursor />
+        <NuxtPage />
+    </div>
+    <div class="relative z-10">
         <Header/>
         <Home/>
         <About/>
@@ -7,7 +11,6 @@
         <Education/>
         <Projects/>
         <Contact/>
-        <Footer/>
     </div>
 </template>
 
