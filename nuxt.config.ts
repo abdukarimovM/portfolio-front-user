@@ -21,17 +21,7 @@ export default defineNuxtConfig({
   modules: [
     "@nuxtjs/tailwindcss",
     "nuxt-swiper",
-    "@nuxtjs/sitemap",
   ],
-
-  site: {
-    url: "https://abdukarimovm.uz",
-    name: "Muslimbek Abdukarimov Portfolio",
-  },
-
-  sitemap: {
-    autoLastmod: true,
-  },
 
   app: {
     head: {
