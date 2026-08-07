@@ -12,7 +12,8 @@
     "@nuxt/devtools": "latest",
     "@nuxtjs/tailwindcss": "^6.7.2",
     "@types/node": "^18.19.130",
-    "nuxt": "^3.5.2"
+    "nuxt": "^3.5.2",
+    "sass": "^1.102.0"
   },
   "dependencies": {
     "nuxt-swiper": "^1.1.1",
