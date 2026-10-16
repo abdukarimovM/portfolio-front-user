@@ -21,15 +21,15 @@
 import SystemLoader from '~/components/SystemLoader.vue'
 import { ref, onMounted } from 'vue'
 
+const config = useRuntimeConfig()
 const isLoading = ref(true)
 
 const fetchData = async () => {
   try {
     isLoading.value = true
     
-    // Backend API so'rovingiz
-    const response = await fetch('https://portfolio-backend-vk4j.onrender.com/api/data')
-    await response.json()
+    // Loader uchun backendning mavjud health endpointini tekshiramiz.
+    await $fetch(`${config.public.api}/api/health`)
 
   } catch (error) {
     console.error("Ulanishda xatolik:", error)
