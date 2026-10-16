@@ -28,7 +28,7 @@ const fetchData = async () => {
     isLoading.value = true
     
     // Backend API so'rovingiz
-    const response = await fetch('https://portfolio-backend-vn5k.onrender.com/api/data')
+    const response = await fetch('https://portfolio-backend-vk4j.onrender.com/api/data')
     await response.json()
 
   } catch (error) {
