@@ -55,7 +55,7 @@
             <div class="w-full h-full rounded-full overflow-hidden bg-[#0f0f16]">
               <img
                 v-if="about.image"
-                :src="`${config.public.api}${about.image}`"
+                :src="imageUrl(about.image)"
                 alt="Profile"
                 class="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
               />
@@ -77,6 +77,7 @@ import { ref, computed, onMounted } from 'vue'
 
 const about = ref({})
 const config = useRuntimeConfig()
+const imageUrl = (value) => value?.startsWith('http') ? value : `${config.public.api}${value || ''}`
 
 const getAbout = async () => {
   try {

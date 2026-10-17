@@ -23,7 +23,7 @@
           <div>
             <div class="w-full h-[220px] sm:h-[250px] rounded-xl overflow-hidden border border-white/10 relative">
               <img
-                :src="`${config.public.api}${item.image}`"
+                :src="imageUrl(item.image)"
                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 alt="Project Image"
               />
@@ -85,6 +85,7 @@ const projects = ref([])
 const currentPage = ref(1)
 const itemsPerPage = 3
 const config = useRuntimeConfig()
+const imageUrl = (value) => value?.startsWith('http') ? value : `${config.public.api}${value || ''}`
 
 const getProjects = async () => {
   try {

@@ -50,7 +50,7 @@
 
           <div class="relative flex justify-end items-end h-24 mt-4 overflow-hidden opacity-20 group-hover:opacity-40 transition-opacity duration-500">
             <img
-              :src="`${config.public.api}${item.icon}`"
+              :src="imageUrl(item.icon)"
               class="w-20 h-20 md:w-24 md:h-24 object-contain filter grayscale group-hover:grayscale-0 transition-all duration-500 group-hover:scale-110"
               alt="Institution logo"
             />
@@ -72,6 +72,7 @@ import { ref, onMounted } from 'vue'
 
 const educations = ref([])
 const config = useRuntimeConfig()
+const imageUrl = (value) => value?.startsWith('http') ? value : `${config.public.api}${value || ''}`
 
 const getEducations = async () => {
   try {
